@@ -2,9 +2,6 @@ import React from "react";
 import Image from 'E:\\React_pro1\\web-design\\src\\ImagesFol\\color_logo_transparent.png';
 import 'E:\\React_pro1\\web-design\\src\\App.css'
 import HomeImg from 'E:\\React_pro1\\web-design\\src\\ImagesFol\\homeImg.png'
-// import head1Img from 'E:\\React_pro1\\web-design\\src\\ImagesFol\\imge1Head.png';
-// import head2Img from 'E:\\React_pro1\\web-design\\src\\ImagesFol\\imge2Head.png';
-
 
 export default function Head() {
     return (
@@ -22,12 +19,6 @@ export default function Head() {
                     </div>
                     <div className="imag-div">
                         <img src={HomeImg} alt="homeImage" />
-                        {/* <div className="img-big">
-                            <img src={head1Img} alt="box1" />
-                        </div>
-                        <div className="img-small">
-                            <img src={head2Img} alt="box2" />
-                        </div> */}
                     </div>
                 </div>
             </div>
