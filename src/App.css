@@ -5,6 +5,7 @@
 }
 
 html, body{
+  overflow-x: hidden;
   min-height: 100vh;
   min-width: 100vw;
 }
@@ -15,6 +16,7 @@ html, body{
   padding: 40px 20px;
   margin-bottom: 80px;
   height: 100vh;
+  width: 100vw;
   padding: 60px;
   margin-bottom: 120px; 
   /* border: 2px solid red; */
@@ -71,7 +73,7 @@ html, body{
     width: 100%;
   }
   .container{
-    width: 100%;
+    width: 100vw;
     min-height: 700px;
   }
   .inner-container{
@@ -319,7 +321,7 @@ html, body{
   width: 40%;
   height: 250px;
   border-radius: 15px;
-
+  box-shadow:0px 0px 2px;
 }
 .outerConFoo{
   /* border: 2px solid green; */
@@ -328,6 +330,7 @@ html, body{
   align-items: center;
   background-color:#00252E;
   padding-top: 100px;
+  width: 100vw;
 }
 .inner-of-Foo{  
   /* border: 2px solid white; */
